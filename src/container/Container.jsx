@@ -1,5 +1,5 @@
 import { CardList } from "components/CardList/CardList";
-import { InputForm } from "components/InputForm/InputForm"
+import { InputForm } from "components/InputForm/InputForm";
 import { Loader } from "components/Loader/Loader";
 
 const initialState = [
@@ -26,9 +26,9 @@ const initialState = [
 export const Container = () => {
     return (
         <div>
-            <InputForm/>
-            <Loader/>
-            <CardList items={initialState}/>
+            <InputForm />
+            <Loader />
+            <CardList items={initialState} />
         </div>
-    )
-}
+    );
+};

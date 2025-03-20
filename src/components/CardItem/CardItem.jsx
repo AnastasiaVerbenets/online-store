@@ -18,7 +18,7 @@ export const CardItem = ({ item }) => {
             <button>x</button>
         </div>
     )
-}
+};
 
 CardItem.propTypes = {
     item: PropTypes.shape({
